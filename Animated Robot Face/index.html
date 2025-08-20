@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Robot Face</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="robot-container">
+        <div class="particles" id="particles"></div>
+        <div class="emotion-emojis" id="emotionEmojis"></div>
+        
+        <div class="emotion-indicator" id="emotionIndicator">Neutral</div>
+        
+        <div class="robot-face" id="robotFace">
+            <div class="eyes-container" id="eyesContainer">
+                <div class="eye" id="leftEye"></div>
+                <div class="eye" id="rightEye"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="control-btn" onclick="cycleEmotions()">Next Emotion</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
