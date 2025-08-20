@@ -2,6 +2,10 @@
 
 A sleek, interactive website featuring an animated robot face with glowing borders, cube-like eyes that follow your cursor, and emotional expressions inspired by cute robots like Emo and Vector.
 
+<p align="center">
+<img src = "https://i.postimg.cc/FKYgfyyr/image.png" width = "800">
+</p>
+
 ## ✨  Features (Latest Update)
 
 ### 🎭 Floating Emotion Emojis
